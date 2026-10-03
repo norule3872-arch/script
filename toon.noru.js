@@ -6,7 +6,7 @@
 // @description  toon광고삭제, 링크누락 해결
 // @run-at       document-end
 // @grant        none
-// @updateURL	 https://raw.githubusercontent.com/norule3872-arch/script/refs/heads/main/litomead.noru.js
+// @updateURL	 https://raw.githubusercontent.com/norule3872-arch/script/refs/heads/main/toon.noru.js
 // ==/UserScript==
 
 
