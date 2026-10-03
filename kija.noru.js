@@ -1,7 +1,10 @@
 // ==UserScript==
 // @name         kjv popup 
+// @namespace    noru
+// @version      1.0
 // @match        https://kissjav.li/*
 // @run-at       document-start
+// @updateURL    https://raw.githubusercontent.com/norule3872-arch/script/refs/heads/main/kija.noru.js
 // ==/UserScript==
 
 (function () {
