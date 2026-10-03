@@ -1,9 +1,9 @@
 // ==UserScript==
-// @name         litome
+// @name         toon
 // @namespace    noru
 // @version      1.4
-// @match        https://www.spotv148.com*
-// @description  리토미광고삭제, 링크누락 해결
+// @match        https://spotv148.com*
+// @description  toon광고삭제, 링크누락 해결
 // @run-at       document-end
 // @grant        none
 // @updateURL	 https://raw.githubusercontent.com/norule3872-arch/script/refs/heads/main/litomead.noru.js
