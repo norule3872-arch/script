@@ -13,7 +13,7 @@
 (function() {
     'use strict';
     
-        // ==========================================
+    // ==========================================
     // [추가 기능] 기존 애드가드 사용자 규칙 통합 관리 칸
     // ==========================================
     
@@ -53,15 +53,6 @@
         }
     }
 
-    /*
-    '#free-genre-list > li:nth-child(1) > a > div.homelist-thumb',
-        '#free-genre-list > li:nth-child(2) > a > div.homelist-thumb',
-        '#free-genre-list > li:nth-child(3) > a > div.homelist-thumb',
-        '#free-genre-list > li:nth-child(4) > a > div.homelist-thumb',
-        '#free-genre-list > li:nth-child(5) > a > div.homelist-thumb',
-        '#free-genre-list > li:nth-child(6) > a > div.homelist-thumb'
-    */
-
     const dynamicSelectors = [
         'div.viewer-list.scroll-control.idle',
         '#adssmall3',
@@ -83,7 +74,6 @@
             console.log('[SPOTV SCRIPT] 동적 광고:', count);
         }
     }
-
 
     // ----------------------------------------
     // 최초 실행
@@ -152,7 +142,7 @@
             
             	
                 let wrIds = [];
-                //@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+                
                 episodeButtons.forEach(btn => {
                     // [수정 2] href 대신 onclick 속성의 텍스트 글자들을 가져옵니다.
                     // 예: "location.href='./board.php?bo_table=toons&wr_id=1829919...'"
@@ -171,6 +161,7 @@
                 // for(let i=0;i<wrIds.length;i++){
                 //     console.log(wrIds[i]);
                 // }
+				
                 // 중복 번호 제거 및 작은 숫자부터 오름차순 정렬 (1화 -> 2화 -> 3화...)
                 wrIds = [...new Set(wrIds)].sort((a, b) => a - b);
 
