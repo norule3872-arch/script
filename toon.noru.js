@@ -2,8 +2,8 @@
 // @name         toon
 // @namespace    noru
 // @version      1.4.1
-// @match        https://spotv148.com*
-// @match.       https://update.spotv24.com*
+// @match        https://www.spotv148.com*
+// @match        https://update.spotv24.com*
 // @description  toon광고삭제, 링크누락 해결
 // @run-at       document-end
 // @grant        none
