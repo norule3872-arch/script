@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         toon
 // @namespace    noru
-// @version      1.4.1
+// @version      1.4.2
 // @match        https://www.spotv148.com*
 // @match        https://update.spotv24.com*
 // @description  toon광고삭제, 링크누락 해결
