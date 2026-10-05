@@ -3,6 +3,7 @@
 // @namespace    noru
 // @version      1.4.2
 // @match        https://www.spotv148.com*
+// @match        https://spotv148.com*
 // @match        https://update.spotv24.com*
 // @description  toon광고삭제, 링크누락 해결
 // @run-at       document-end
