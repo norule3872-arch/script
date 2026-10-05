@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         toon
 // @namespace    noru
-// @version      1.4.2
+// @version      1.4.3
 // @match        https://www.spotv148.com*
 // @match        https://spotv148.com*
 // @match        https://update.spotv24.com*
